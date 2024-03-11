@@ -1,0 +1,19 @@
+/* Styl dla paska bocznego */
+aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}

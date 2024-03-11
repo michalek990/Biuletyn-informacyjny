@@ -1,0 +1,4 @@
+/* Styl dla paska wyszukiwania */
+input[type="text"] {
+    padding: 5px;
+}
