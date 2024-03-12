@@ -1,6 +1,7 @@
 /* Styl dla paska bocznego */
 aside {
-    background-color: #f4f4f4;
+    background-color: #333;
+    color: white;
     padding: 20px;
     width: 200px;
 }
@@ -16,4 +17,8 @@ aside ul {
 
 aside ul li {
     margin-bottom: 10px;
+}
+
+aside button{
+    margin-left: 25px;
 }

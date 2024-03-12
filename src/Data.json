@@ -1,0 +1,12 @@
+[
+  { "id": 1, "title": "Nowa technologia XYZ debiutuje na rynku", "content": "Treść artykułu o technologii XYZ..." },
+  { "id": 2, "title": "Jak AI zmienia nasze życie", "content": "Treść artykułu o AI..." },
+  { "id": 3, "title": "Czy warto inwestować w kryptowaluty?", "content": "Treść artykułu o kryptowalutach..." },
+  { "id": 4, "title": "Przełom w technologii baterii", "content": "Treść artykułu o nowych bateriach..." },
+  { "id": 5, "title": "Rozwój samochodów autonomicznych", "content": "Treść artykułu o samochodach autonomicznych..." },
+  { "id": 6, "title": "Wirtualna rzeczywistość jako przyszłość rozrywki", "content": "Treść artykułu o wirtualnej rzeczywistości..." },
+  { "id": 7, "title": "Druk 3D w medycynie", "content": "Treść artykułu o druku 3D w medycynie..." },
+  { "id": 8, "title": "Zrównoważony rozwój dzięki technologii", "content": "Treść artykułu o zrównoważonym rozwoju..." },
+  { "id": 9, "title": "Blockchain poza kryptowalutami", "content": "Treść artykułu o zastosowaniach blockchain..." },
+  { "id": 10, "title": "Cyberbezpieczeństwo w dobie IoT", "content": "Treść artykułu o cyberbezpieczeństwie..." }
+]

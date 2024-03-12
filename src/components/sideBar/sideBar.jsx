@@ -12,6 +12,7 @@ const Sidebar = ({ articles, onArticleSelected }) => (
                 </li>
             ))}
         </ul>
+        <button onClick={() => onArticleSelected(null)}>Home Page</button>
     </aside>
 );
 export default Sidebar;
