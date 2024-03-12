@@ -1,0 +1,92 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #666666;
+}
+
+.high-contrast {
+  color: #FFFF00 !important;/* Żółty tekst dla wysokiego kontrastu */
+  background-color: #000000; /* Czarne tło dla wysokiego kontrastu */
+}
+
+.high-contrast .sidebar{
+    color: #FFFF00 !important; /* Zastosuj do wszystkich elementów wewnątrz .high-contrast */
+    background-color: #000000; /* Czarne tło dla wysokiego kontrastu */
+}
+
+.high-contrast .sidebar button{
+  color: #FFFF00 !important; /* Zastosuj do wszystkich elementów wewnątrz .high-contrast */
+  background-color: #000000;
+}
+
+.high-contrast .sidebar button:hover{
+  background-color: #FFFF00 !important;
+  color: #000000 !important;
+}
+
+.high-contrast .main-content {
+  color: #FFFF00 !important; /* Zastosuj do wszystkich elementów wewnątrz .high-contrast */
+  background-color: #333 !important;
+}
+
+.high-contrast .main-container .navbar button{
+  background-color: #FFFF00 !important; /* Zastosuj do wszystkich elementów wewnątrz .high-contrast */
+
+}
+
+.high-contrast .search input {
+    color: #FFFF00 !important; /* Zastosuj do wszystkich elementów wewnątrz .high-contrast */
+}
+
+.high-contrast .search .dataItem{
+  color: #FFFF00 !important; /* Zastosuj do wszystkich elementów wewnątrz .high-contrast */
+}
+
+.high-contrast *, /* Zastosuj do wszystkich elementów wewnątrz .high-contrast */
+.high-contrast a { /* Zapewnia, że linki również mają żółty kolor tekstu */
+  color: inherit; /* Dziedziczy kolor tekstu z .high-contrast */
+}
+
+.app.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.app.light .search .navbar{
+  background-color: green;
+  color: #000;
+}
+
+.app.dark .sidebar .search .navbar .main-content {
+  background-color: green;
+  color: #fff;
+}
+
+.app.dark button{
+  background-color: gray;
+  color: black;
+  font-size: 20px;
+}
+
+.app.dark button:hover{
+  background-color: white;
+  color: black;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 100% wysokości widoku */
+}
+
+.footer {
+  margin-top: auto; /* Popycha stopkę do dołu */
+}
+
+.main-container {
+  margin-bottom: 50px; /* Dostosuj do wysokości twojej stopki */
+}
