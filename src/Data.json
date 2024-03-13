@@ -1,12 +1,12 @@
 [
-  { "id": 1, "title": "Nowa technologia XYZ debiutuje na rynku", "content": "Treść artykułu o technologii XYZ..." },
-  { "id": 2, "title": "Jak AI zmienia nasze życie", "content": "Treść artykułu o AI..." },
-  { "id": 3, "title": "Czy warto inwestować w kryptowaluty?", "content": "Treść artykułu o kryptowalutach..." },
-  { "id": 4, "title": "Przełom w technologii baterii", "content": "Treść artykułu o nowych bateriach..." },
-  { "id": 5, "title": "Rozwój samochodów autonomicznych", "content": "Treść artykułu o samochodach autonomicznych..." },
-  { "id": 6, "title": "Wirtualna rzeczywistość jako przyszłość rozrywki", "content": "Treść artykułu o wirtualnej rzeczywistości..." },
-  { "id": 7, "title": "Druk 3D w medycynie", "content": "Treść artykułu o druku 3D w medycynie..." },
-  { "id": 8, "title": "Zrównoważony rozwój dzięki technologii", "content": "Treść artykułu o zrównoważonym rozwoju..." },
-  { "id": 9, "title": "Blockchain poza kryptowalutami", "content": "Treść artykułu o zastosowaniach blockchain..." },
-  { "id": 10, "title": "Cyberbezpieczeństwo w dobie IoT", "content": "Treść artykułu o cyberbezpieczeństwie..." }
+  { "id": 1, "title": "Dlaczego generatywne systemy sztucznej inteligencji są głupie", "content": "Treść artykułu o technologii XYZ...", "author": "Jan Kowalski", "date": "2020-01-01"},
+  { "id": 2, "title": "Jak sztuczna inteligencja już na zawsze zmieniła kodowanie", "content": "Treść artykułu o technologii ABC...", "author": "Jan Kowalski", "date": "2020-01-02"},
+  { "id": 3, "title": "Język Swift zapewnia bezpieczeństwo wyścigu danych", "content": "Treść artykułu o technologii DEF...", "author": "Jan Kowalski", "date": "2020-01-03"},
+  { "id": 4, "title": "Raport mówi, że programiści Java poszukiwani", "content": "Treść artykułu o technologii GHI...", "author": "Jan Kowalski", "date": "2020-01-04"},
+  { "id": 5, "title": "Kubernetes jest (nie) problemem optymalizacji kosztów", "content": "Treść artykułu o technologii JKL...", "author": "Jan Kowalski", "date": "2020-01-05"},
+  { "id": 6, "title": "Jak generatywna sztuczna inteligencja zmieni programowanie niskokodowe", "content": "Treść artykułu o technologii MNO...", "author": "Jan Kowalski", "date": "2020-01-06"},
+  { "id": 7, "title": "Problem open source", "content": "Treść artykułu o technologii PQR...", "author": "Jan Kowalski", "date": "2020-01-07"},
+  { "id": 8, "title": "Dlaczego SQL nadal rządzi", "content": "Treść artykułu o technologii STU...", "author": "Jan Kowalski", "date": "2020-01-08"},
+  { "id": 9, "title": "Co to jest JavaScript? Język programowania full-stack", "content": "Treść artykułu o technologii VWX...", "author": "Jan Kowalski", "date": "2020-01-09"},
+  { "id": 10, "title": "Dlaczego klucze dostępu zastępują hasła", "content": "Treść artykułu o technologii YZA...", "author": "Jan Kowalski", "date": "2020-01-10"}
 ]

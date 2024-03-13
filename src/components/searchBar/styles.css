@@ -16,7 +16,7 @@
     font-size: 18px;
     padding: 15px;
     height: 30px;
-    width:160px;
+    width:260px;
     margin-left: 10px;
 }
 
@@ -38,7 +38,7 @@ input:focus {
 .dataResult {
     margin-top: 5px;
     margin-left: 20px;
-    width: 240px;
+    width: 340px;
     height: 100px;
     background-color: gray;
     color: white;
@@ -73,4 +73,15 @@ a:hover {
 
 #clearBtn {
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .search input{
+        width: 150px;
+    }
+
+    .search .dataResult{
+        width: 230px;
+        font-size: 12px;
+    }
 }

@@ -6,10 +6,13 @@ const MainContent = ({ article, onReadText }) => (
     <div className="main-content">
         {article ? (
             <>
-                <h2>{article.title}</h2>
-                <p>{article.content}</p>
-                <button onClick={() => onReadText(article.title,article.content)}>
-                    <img src={Speaker} alt="Logo"/>
+                <div className="article">
+                    <h2>{article.title}</h2>
+                    <p>{article.content}</p>
+                    <h3>Autor: {article.author}</h3>
+                </div>
+                <button onClick={() => onReadText(article.title, article.content)}>
+                <img src={Speaker} alt="Logo"/>
                 </button>
             </>
         ) : (
