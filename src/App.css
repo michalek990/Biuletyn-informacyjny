@@ -95,3 +95,9 @@ body {
 .footer {
   margin-top: auto;
 }
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
