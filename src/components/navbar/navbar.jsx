@@ -7,8 +7,10 @@ import Dark from "../../image/dark.png"
 
 const Navbar = ({onToggleContrast, sizeUp, sizeDown, onToggleTheme, theme}) => (
     <nav className="navbar">
-        <img src={Logo} alt="Logo"/>
-        <h1>TechnoNews</h1>
+        <div className="logo">
+            <img src={Logo} alt="Logo"/>
+            <h1>TechnoNews</h1>
+        </div>
         <div className="button-container"> {/* Dodajemy ten kontener */}
             <button className="navbar-button size" onClick={sizeUp}>A+</button>
             <button className="navbar-button size" onClick={sizeDown}>A-</button>

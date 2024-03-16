@@ -6,6 +6,7 @@ import CloseIcon from '@mui/icons-material/Close';
 function SearchBar({ placeholder, data, onSelectArticle  }) {
     const [filteredData, setFilteredData] = useState([]);
     const [wordEntered, setWordEntered] = useState("");
+    const [inputFocused, setInputFocused] = useState(false);
 
     const handleFilter = (event) => {
         const searchWord = event.target.value;
@@ -26,6 +27,14 @@ function SearchBar({ placeholder, data, onSelectArticle  }) {
         setWordEntered("");
     };
 
+    const handleInputFocus = () => {
+        setInputFocused(true);
+    };
+
+    const handleInputBlur = () => {
+        setInputFocused(false);
+    };
+
     return (
         <div className="search">
             <div className="searchInputs">
@@ -34,6 +43,8 @@ function SearchBar({ placeholder, data, onSelectArticle  }) {
                     placeholder={placeholder}
                     value={wordEntered}
                     onChange={handleFilter}
+                    onFocus={handleInputFocus}
+                    onBlur={handleInputBlur}
                 />
                 <div className="searchIcon">
                     {filteredData.length === 0 ? (
@@ -43,7 +54,7 @@ function SearchBar({ placeholder, data, onSelectArticle  }) {
                     )}
                 </div>
             </div>
-            {filteredData.length !== 0 && (
+            {filteredData.length !== 0 && inputFocused && (
                 <div className="dataResult">
                     {filteredData.slice(0, 15).map((value, key) => {
                         return (
@@ -53,6 +64,9 @@ function SearchBar({ placeholder, data, onSelectArticle  }) {
                         );
                     })}
                 </div>
+            )}
+            {filteredData.length === 0 && wordEntered.length !== 0 && inputFocused && (
+                <div className="noResults">Brak wyników</div>
             )}
         </div>
     );

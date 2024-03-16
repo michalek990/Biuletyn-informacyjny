@@ -56,27 +56,26 @@ const App = () => {
   return (
       <div className={`app ${theme}`} style={{ fontSize: `${fontSize}px` }}>
           <div className="main-container">
-            <div className="navbar">
               <Navbar onToggleContrast={toggleContrast}
                       sizeUp={increaseFontSize}
                       sizeDown={decreaseFontSize}
                       onToggleTheme={toggleTheme}
                       theme={theme}
               />
-            </div>
-            <div className="search">
-              <SearchBar placeholder="Enter a Article Title..." data={BookData} onSelectArticle={selectArticleByTitle}/>
-            </div>
             <main>
-              <div className="sidebar">
-                <Sidebar articles={articles} onArticleSelected={selectArticle}/>
-              </div>
-              <section>
-                <MainContent article={activeArticle} onReadText={readText}
-                />
-              </section>
+                <div className="aside">
+                    <div className="search">
+                        <SearchBar placeholder="Enter a Article Title..." data={BookData} onSelectArticle={selectArticleByTitle}/>
+                    </div>
+                    <div className="sidebar">
+                        <Sidebar articles={articles} onArticleSelected={selectArticle}/>
+                    </div>
+                </div>
+                <section>
+                    <MainContent article={activeArticle} onReadText={readText}/>
+                </section>
             </main>
-            <Footer className="footer"/>
+              <Footer className="footer"/>
           </div>
         </div>
   );

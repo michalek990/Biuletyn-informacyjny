@@ -87,6 +87,9 @@ body {
   margin-top: auto; /* Popycha stopkę do dołu */
 }
 
-.main-container {
-  margin-bottom: 50px; /* Dostosuj do wysokości twojej stopki */
+.aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
+
