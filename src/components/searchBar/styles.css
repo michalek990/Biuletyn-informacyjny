@@ -1,23 +1,17 @@
 .searchInputs {
     margin-top: 20px;
-    margin-left: 10px;
     display: flex;
 }
-
-
 
 .search input {
     border: 0;
     background-color: #333;
     color: white;
-    border-radius: 2px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-radius: 2px 0px 0px 2px;
     font-size: 18px;
     padding: 15px;
     height: 30px;
     width:260px;
-    margin-left: 10px;
 }
 
 .searchIcon {
@@ -36,8 +30,6 @@ input:focus {
 }
 
 .dataResult {
-    margin-top: 5px;
-    margin-left: 20px;
     width: 340px;
     height: 100px;
     background-color: gray;
@@ -45,7 +37,21 @@ input:focus {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
     overflow-y: auto;
+    position: absolute;
+}
 
+.noResults {
+    width: 340px;
+    height: 100px;
+    background-color: gray;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
 }
 
 .dataResult::-webkit-scrollbar {
